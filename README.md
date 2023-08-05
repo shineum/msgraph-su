@@ -73,7 +73,7 @@ group_id = "<group guid>"
 req_body = {
     "@odata.id": f"https://graph.microsoft.com/v1.0/users/{user_id}"
 }
-result = client.post_data('groups/{group_id}/members/$ref', req_body)
+result = client.post_data(f"groups/{group_id}/members/$ref", req_body)
 print(result)
 ```
 
