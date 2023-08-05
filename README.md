@@ -16,8 +16,15 @@ pip install git+https://github.com/shineum/py_msgraph.git
 To use MS graph API, MS application is necessary and tenant_id, client_id and client_secret are prepared.
 It is needed to assign the permissions in the MS application depending on the APIs.
 
-Here is reference URL.
+Here are reference URLs.
 ```
+# Set up a Tenant
+https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-create-new-tenant
+
+# Register an application
+https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app
+
+# Graph API Permissions
 https://learn.microsoft.com/en-us/graph/permissions-reference
 ```
 
