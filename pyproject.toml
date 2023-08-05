@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "py-msgraph"
-version = "0.0.2"
+version = "0.0.3"
 description = "library to use MS graph API"
 readme = "README.md"
 authors = [{ name = "Sungwon Um", email = "shineum@gmail.com" }]
