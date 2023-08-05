@@ -3,7 +3,7 @@
 Use pip:
 
 ```
-pip install py_msgraph
+pip install py-msgraph
 ```
 or
 
@@ -33,6 +33,8 @@ https://learn.microsoft.com/en-us/graph/permissions-reference
 Initialize MSGraphServiceClient instance.
 
 ```
+from py_msgraph import MSGraphServiceClient
+
 config = {
     'tenant_id':      '<tentant_id>',
     'client_id':      '<client_id>',
